@@ -1,6 +1,6 @@
 <?php
 
-define('BASE_DIR', dirname,(__FILE__, 2));
+define('BASE_DIR', dirname . '(__FILE__, 2)');
 define('VIEWS', BASE_DIR . '/APP/VIEW');
 
 $_ENV['db']['host'] = "localhost:3307";
